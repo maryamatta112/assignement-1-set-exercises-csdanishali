@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Embed Video</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+
+        video {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #17072b;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <video controls loop poster="poster-image.jpg">
+        <source src="video.mp4.mp4"video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
